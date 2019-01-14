@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="viewport" content="Calculator, simple">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <table class="design">
+            <tr>
+                <td>
+                    <p>
+                        <h2><b>Calculator</b></h2>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Enter a number according to the operations respectively. In case of 6 or 7, only enter input in
+                        first box:<br>1 - +,2 - -, 3 - /, 4 - *, 5 - %, 6 - ^, 7 - square root:</p>
+                </td>
+                <td><input type="number" id="decision" placeholder="Decision"></td>
+            </tr>
+            <tr>
+                <td>Enter first number: </td>
+                <td><input type="number" id="input1" placeholder="First Number"></td>
+            </tr>
+            <tr>
+                <td>Enter second number: </td>
+                <td><input type="number" id="input2" placeholder="Second Number"></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><input type="button" value="Get Answer" onclick="cal()"></td>
+                <td><input type="number" id="result" placeholder="Result"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
