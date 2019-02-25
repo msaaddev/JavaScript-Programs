@@ -9,7 +9,7 @@ function calc(num) {
             sum = sum + rem;
         }
         number = (number - rem) / 10;
-        
+
     }
-    document.getElementById("result").value = sum; 
+    document.getElementById("result").value = sum;
 }
